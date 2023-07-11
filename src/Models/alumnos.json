@@ -1,0 +1,23 @@
+{
+    "alumnos": [
+        {
+            "boleta": 1,
+            "name": "John Doe",
+            "email": "john@gmail.com",
+            "materias": [
+                {
+                    "name": "Matematicas",
+                    "calificacion": "10",
+                    "profesor": "Juan Perez",
+                    "horario": "Lunes 10:00 - 12:00"
+                },
+                {
+                    "name": "Programacion ",
+                    "calificacion": "10",
+                    "profesor": "Memo",
+                    "horario": "Lunes 10:00 - 12:00"
+                }
+            ]
+        }
+    ]
+}
