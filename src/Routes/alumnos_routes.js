@@ -15,11 +15,27 @@ route.post('/agregarAlumno', (req, res) => {
 })
 
 route.patch('/actualizarAlumno', (req, res) => {
-    res.json({message:"Esto es el patch de alumnos"})
+    const index = alumnosJson.alumnos.findIndex(alumno => alumno.boleta === req.body.boleta)
+    console.log(index);
+
+    if (index >= 0) {
+        alumnosJson.alumnos[index] = req.body
+        return res.json(alumnosJson)
+    } else {
+        return res.json({message:"No existe alumno"})
+    }
 })
 
 route.delete('/eliminarAlumno', (req, res) => {
-    res.json({message:"Esto es el delete de alumnos"})
+    const index = alumnosJson.alumnos.findIndex(alumno => alumno.boleta === req.body.boleta)
+    console.log(index);
+
+    if (index >= 0) {
+        alumnosJson.alumnos.splice(index, 1)
+        return res.json(alumnosJson)
+    } else {
+        return res.json({message:"No existe alumno"})
+    }
 })
 
 module.exports = route
