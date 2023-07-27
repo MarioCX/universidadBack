@@ -5,10 +5,10 @@ const getAlumnos = (req, res) => {
 };
 
 const infoQR = (req, res) => {
-  const name = req.params.name
-  res.json({message:`Hola ${name}`})
-}
- 
+  const name = req.params.name;
+  res.json({ message: `Hola ${name}` });
+};
+
 const addAlumno = (req, res) => {
   // desestructuración
   let materias = [];
@@ -43,7 +43,7 @@ const deleteAlumno = (req, res) => {
 
 function updateAlumno(req, res) {
   const id = req.params.id;
-  console.log(index);
+  console.log(id);
 
   let alumnosFilter = alumnosJson.alumnos.filter((alumno) => alumno.id !== id);
   console.log(alumnosFilter);
