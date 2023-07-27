@@ -1,16 +1,24 @@
-const express = require('express') //Invoca a express require = indica que utilizará express 
-const alumnosRoutes = require('./src/Routes/alumnos_routes.js') //Importar las rutas alumnos 
-const profesoresRoutes = require('./src/Routes/profesor_routes.js')
+const express = require('express')  // "invocar" -> indica que utiizara Express ( o requiere)
+const alumnosRoutes = require('./src/Routes/alumno_routes.js') // importar las rutas de alumnos
+const profesorRoutes = require('./src/Routes/profesor_routes.js') // importar las rutas de profesores
+const materiasRoutes = require('./src/Routes/materias_routes.js') // importar las rutas de materias
+
 const bodyParser = require('body-parser')
-const app = express() //Crea una instancia de express
+const cors = require('cors')
+
+const app = express() // crea una instancia de express
+
+app.use(bodyParser.urlencoded({ extended: false }))  // dependencias / configuraciones para leer
+app.use(bodyParser.json()) 
+app.use(cors())
 
 
-app.use(bodyParser.urlencoded({ extended: false })) //Dependencias /configuraciones para leer 
-app.use(bodyParser.json()) //archivos tipo JSON
-
+// rutas
 app.use(alumnosRoutes)
-app.use(profesoresRoutes)
+app.use(profesorRoutes)
+app.use(materiasRoutes)
+
 
 app.listen(3000, () => {
-    console.log('servidor corriendo en el puerto 3000 🚀')
-})
+    console.log('Servidor corriendo en el puerto 3000 🚀')
+} )
