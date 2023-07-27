@@ -4,6 +4,11 @@ const getAlumnos = (req, res) => {
   res.json(alumnosJson);
 };
 
+const infoQr = (req, res) => {
+  const name = req.params.name
+  req.json({message:`Hola${name}`})
+}
+ 
 const addAlumno = (req, res) => {
   // desestructuración
   let materias = [];
@@ -50,4 +55,4 @@ function updateAlumno(req, res) {
   }
 }
 
-module.exports = { getAlumnos, addAlumno, deleteAlumno, updateAlumno };
+module.exports = { getAlumnos, addAlumno, deleteAlumno, updateAlumno, infoQr };

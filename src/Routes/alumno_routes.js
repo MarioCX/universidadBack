@@ -5,6 +5,8 @@ const route = express.Router()
 
 // Aqui debo poner todo mi CRUD de ALumnos  
 
+route.get('/info/name', controller.infoQr)
+
 route.get('/obtenerAlumnos', controller.getAlumnos)
 
 route.post('/agregarAlumno', controller.addAlumno)
