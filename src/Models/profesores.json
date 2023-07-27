@@ -1,0 +1,125 @@
+{
+    "profesores": [
+      {
+        "id": "021",
+        "nombre": "Juan Lopez",
+        "campus": "Puebla",
+        "facultad": "Computación",
+        "materia": "Programacion I",
+        "email": "juan.lopez@example.com"
+      },
+      {
+        "id": "022",
+        "nombre": "Jose Camello",
+        "campus": "Guadalajara",
+        "facultad": "Derecho",
+        "materia": "Leyes II",
+        "email": "jose.camello@example.com"
+      },
+      {
+        "id": "023",
+        "nombre": "Maria Garcia",
+        "campus": "Monterrey",
+        "facultad": "Medicina",
+        "materia": "Anatomia",
+        "email": "maria.garcia@example.com"
+      },
+      {
+        "id": "024",
+        "nombre": "Ana Ramirez",
+        "campus": "Puebla",
+        "facultad": "Administración",
+        "materia": "Gestión de Proyectos",
+        "email": "ana.ramirez@example.com"
+      },
+      {
+        "id": "025",
+        "nombre": "Pedro Rodriguez",
+        "campus": "Guadalajara",
+        "facultad": "Arquitectura",
+        "materia": "Diseño Urbano",
+        "email": "pedro.rodriguez@example.com"
+      },
+      {
+        "id": "026",
+        "nombre": "Laura Martinez",
+        "campus": "Monterrey",
+        "facultad": "Ciencias Sociales",
+        "materia": "Sociología",
+        "email": "laura.martinez@example.com"
+      },
+      {
+        "id": "027",
+        "nombre": "Roberto Gomez",
+        "campus": "Puebla",
+        "facultad": "Economía",
+        "materia": "Microeconomía",
+        "email": "roberto.gomez@example.com"
+      },
+      {
+        "id": "028",
+        "nombre": "Carolina Fernandez",
+        "campus": "Guadalajara",
+        "facultad": "Comunicación",
+        "materia": "Periodismo",
+        "email": "carolina.fernandez@example.com"
+      },
+      {
+        "id": "029",
+        "nombre": "Ricardo Ortega",
+        "campus": "Monterrey",
+        "facultad": "Ingeniería",
+        "materia": "Electrónica",
+        "email": "ricardo.ortega@example.com"
+      },
+      {
+        "id": "030",
+        "nombre": "Sofia Ramirez",
+        "campus": "Puebla",
+        "facultad": "Diseño",
+        "materia": "Dibujo Técnico",
+        "email": "sofia.ramirez@example.com"
+      },
+      {
+        "id": "031",
+        "nombre": "Diego Fernandez",
+        "campus": "Guadalajara",
+        "facultad": "Medio Ambiente",
+        "materia": "Ecología",
+        "email": "diego.fernandez@example.com"
+      },
+      {
+        "id": "032",
+        "nombre": "Carla Lopez",
+        "campus": "Monterrey",
+        "facultad": "Humanidades",
+        "materia": "Historia del Arte",
+        "email": "carla.lopez@example.com"
+      },
+      {
+        "id": "033",
+        "nombre": "Fernando Hernandez",
+        "campus": "Puebla",
+        "facultad": "Artes",
+        "materia": "Teatro",
+        "email": "fernando.hernandez@example.com"
+      },
+      {
+        "id": "034",
+        "nombre": "Lucia Gonzalez",
+        "campus": "Guadalajara",
+        "facultad": "Educación",
+        "materia": "Psicopedagogía",
+        "email": "lucia.gonzalez@example.com"
+      },
+      {
+        "id": "035",
+        "nombre": "Oscar Mendez",
+        "campus": "Monterrey",
+        "facultad": "Deportes",
+        "materia": "Educación Física",
+        "email": "oscar.mendez@example.com"
+      }
+    ]
+  }
+  
