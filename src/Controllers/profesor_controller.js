@@ -5,8 +5,6 @@ const getProfesores = (req, res) => {
 };
 
 const addProfesor = (req, res) => {
-    // desestructuración
-  
     const { id, nombre, campus, facultad, materia, email } =
       req.body;
 

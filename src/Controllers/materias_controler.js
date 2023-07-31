@@ -23,7 +23,7 @@ const getMaterias = (req, res) => {
         },
         {
             id: 5,
-            materia: 'Programacion Backed',
+            materia: 'Programacion Backend',
             profesor: 'joe Gonzalez',
         }
     ]})
